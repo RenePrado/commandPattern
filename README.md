@@ -18,4 +18,5 @@ Uploaded java codes for the solution.
 Upload your GitHub Solution link here.
 
 # UML Class Diagram
-![Uploading UML.jpeg…]()
+![image](https://github.com/user-attachments/assets/110ab30c-0dff-4827-97e1-71f77cafdce2)
+
