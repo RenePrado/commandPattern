@@ -1,5 +1,4 @@
 # Smart Home Automation
-
 Imagine you're building a smart home automation system where various devices (lights, thermostat, music player, etc.) can be controlled remotely using a central hub or app. Each device has different functionalities, but you want to create a unified and flexible control mechanism.
 
 Design a system that allows you to control multiple smart home devices with ease. Your goal is to create a solution where:
@@ -18,5 +17,6 @@ Uploaded java codes for the solution.
 Upload your GitHub Solution link here.
 
 # UML Class Diagram
-![image](https://github.com/user-attachments/assets/110ab30c-0dff-4827-97e1-71f77cafdce2)
+![image](https://github.com/user-attachments/assets/630e8d4a-17d0-4f0c-8d3f-f373fd346083)
+
 
