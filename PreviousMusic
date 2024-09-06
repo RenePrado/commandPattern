@@ -1,0 +1,15 @@
+public class PreviousMusic implements Command
+{
+    private MusicPlayer musicPlayer;
+
+    public PreviousMusic(MusicPlayer musicPlayer)
+    {
+        this.musicPlayer = musicPlayer;
+    }
+
+    @Override
+    public String execute()
+    {
+        return musicPlayer.previousMusic();
+    }
+}
