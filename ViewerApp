@@ -1,0 +1,41 @@
+public class ViewerApp
+{
+    public static void main(String[] args)
+    {
+        Tv tv = new Tv();
+        Lights lights = new Lights();
+        MusicPlayer music = new MusicPlayer();
+        Thermostat  thermostat = new Thermostat();
+        RemoteControl remoteControl = new RemoteControl();
+
+        PowerOn powerOn = new PowerOn(tv);
+        remoteControl.setCommand(powerOn);
+        remoteControl.clickButton();
+        PowerOff powerOff = new PowerOff(tv);
+        remoteControl.setCommand(powerOff);
+        remoteControl.clickButton();
+
+        TurnOn turnOnLights = new TurnOn(lights);
+        System.out.println(turnOnLights.execute());
+        TurnOff turnOffLights = new TurnOff(lights);
+        System.out.println(turnOffLights.execute());
+        DecreaseBrightness decreaseLights = new DecreaseBrightness(lights);
+        System.out.println(decreaseLights.execute());
+        IncreaseBrightness increaseLights = new IncreaseBrightness(lights);
+        System.out.println(increaseLights.execute());
+
+        IncreaseTemperature increaseTemperature = new IncreaseTemperature(thermostat);
+        System.out.println(increaseTemperature.execute());
+        DecreaseTemperature decreaseTemperature = new DecreaseTemperature(thermostat);
+        System.out.println(decreaseTemperature.execute());
+
+        IncreaseVolume increaseVolume= new IncreaseVolume(music);
+        System.out.println(increaseVolume.execute());
+        DecreaseVolume decreaseVolume = new DecreaseVolume(music);
+        System.out.println(decreaseVolume.execute());
+        NextMusic nextMusic = new NextMusic(music);
+        System.out.println(nextMusic.execute());
+        PreviousMusic previousMusic = new PreviousMusic(music);
+        System.out.println(previousMusic.execute());
+    }
+}
