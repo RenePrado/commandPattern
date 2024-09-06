@@ -1,0 +1,12 @@
+public class Tv
+{
+    public String powerOn()
+    {
+        return "Tv is powered on";
+    }
+
+    public String powerOff()
+    {
+        return "Tv is powered off";
+    }
+}
