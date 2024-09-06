@@ -1,12 +1,15 @@
-public class DecreaseTemperature implements Command {
+public class DecreaseTemperature implements Command 
+{
     private Thermostat thermostat;
 
-    public DecreaseTemperature(Thermostat thermostat) {
+    public DecreaseTemperature(Thermostat thermostat) 
+{
         this.thermostat = thermostat;
     }
 
     @Override
-    public String execute() {
+    public String execute() 
+{
         return thermostat.decreaseTemperature();
     }
 }
