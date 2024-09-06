@@ -1,0 +1,21 @@
+public class MusicPlayer {
+    public String increaseVolume()
+    {
+        return "Music volume increased";
+    }
+
+    public String decreaseVolume()
+    {
+        return "Music volume decreased";
+    }
+
+    public String nextMusic()
+    {
+        return "Next music is playing";
+    }
+
+    public String previousMusic()
+    {
+        return "Previous music is playing";
+    }
+}
