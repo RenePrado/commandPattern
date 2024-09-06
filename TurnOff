@@ -1,0 +1,15 @@
+public class TurnOff implements Command
+{
+    private Lights lights;
+
+    public TurnOff(Lights light)
+    {
+        this.lights = light;
+    }
+
+    @Override
+    public String execute()
+    {
+        return lights.turnOff();
+    }
+}
