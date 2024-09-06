@@ -1,0 +1,15 @@
+public class NextMusic implements Command
+{
+    private MusicPlayer musicPlayer;
+
+    public NextMusic(MusicPlayer musicPlayer)
+    {
+        this.musicPlayer = musicPlayer;
+    }
+
+    @Override
+    public String execute()
+    {
+        return musicPlayer.nextMusic();
+    }
+}
