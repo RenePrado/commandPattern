@@ -1,15 +1,15 @@
-public class DecreaseBrightness implements Command 
+public class DecreaseBrightness implements Command
 {
-    private Light light;
+    private Lights lights;
 
-    public DecreaseBrightness(Light light)
+    public DecreaseBrightness(Lights lights) 
 {
-        this.light = light;
+        this.lights = lights;
     }
 
     @Override
     public String execute() 
 {
-        return light.decreaseBrightness();
+        return lights.decreaseBrightness();
     }
 }
