@@ -2,9 +2,9 @@ public class TurnOn implements Command
 {
     private Lights lights;
 
-    public TurnOn(Lights light)
+    public TurnOn(Lights lights)
     {
-        this.lights = light;
+        this.lights = lights;
     }
 
     @Override
